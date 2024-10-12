@@ -1,0 +1,86 @@
+body{
+    cursor: pointer;
+}
+.item{
+    /* background-color: #ebebeb; */
+    width: 12vw;
+    position: relative;
+    left: 38rem;
+    bottom: 9rem;
+}
+.people{
+    position: relative;
+    left: 15rem;
+    top: 4rem;
+    width: 22vw;
+
+}
+.clouds{
+    position: relative;
+    width: 14vw;
+    bottom: 16rem;
+    left: 18rem;
+    mix-blend-mode: darken;
+}
+.sun{
+    position: relative;
+    width: 15vw;
+    bottom: 28rem;
+    left: 13rem;
+    mix-blend-mode: darken;
+}
+.head-1{
+    position: relative;
+    bottom: 17rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    /* color: white;
+    text-shadow: 2px 2px 4px #000000; */
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px rgb(180, 180, 182);
+
+}
+.head-1:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-15px);
+    text-decoration: underline;
+}
+.test{
+    position: relative;
+    bottom: 9rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    /* color: white;
+    text-shadow: 2px 2px 4px #000000; */
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px rgb(180, 180, 182);
+
+}
+.test:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-15px);
+    text-decoration: underline;
+}
+.mainn{
+    display: flex;
+    position: relative;
+    bottom: 13rem;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Poppins, sans-serif;
+
+}
+.card-group{
+    position: relative;
+    bottom: 5rem;
+    font-family: Poppins, sans-serif;
+    gap: 6rem;
+    text-align: center;
+    margin: 0rem 10rem;
+}
+.card:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-15px);
+}

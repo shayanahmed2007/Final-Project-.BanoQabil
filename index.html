@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+  <!--------------------------------------------------- header --------------------------------------------------->
+
+  <nav class="navbar navbar-expand-lg bg-primary p-sm-3 p-3">
+    <div class="container-fluid p-0 p-sm-1 justify-content-center justify-content-sm-between">
+      <a class="navbar-brand text-light mx-2 text-center text-sm-left" href="#">
+        <h1 style=" font-family: Poppins, sans-serif; font-weight: bold;">PakWeather</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="nav nav-underline justify-content-end d-flex flex-column flex-sm-row">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#"
+              style=" font-family: Poppins, sans-serif;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#" style=" font-family: Poppins, sans-serif;">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#" style=" font-family: Poppins, sans-serif;">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#" style=" font-family: Poppins, sans-serif;">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#" style=" font-family: Poppins, sans-serif;">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--------------------------------------------------- About us --------------------------------------------------->
+
+  <div class="card m-auto mt-3 border border-success align-items-start justify-content-around"
+    style="width: 40%; position: relative; right: 22rem; top: 6rem; border: 2px solid rgb(131, 159, 222); background-color: rgb(40, 71, 247); color: white;">
+    <div class="row g-0">
+      <div class="col rounded-right">
+        <div class="card-body">
+          <h2 class="card-title" style="font-family: Poppins, sans-serif; font-weight: bold;">About us</h2>
+          <h3 class="card-title text-success" id="nameCity"></h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia nam, nemo saepe omnis reiciendis esse
+            assumenda natus id! Tempora fugiat labore dolor, quis dolores illo nesciunt. Obcaecati rerum quibusdam quia!
+            <span id="lat" class="bl"></span>°
+          </p>
+          <input class="btn btn-primary" type="Learn More" value="Learn More"
+            style="background-color: rgb(255, 255, 255); border: 2px solid white; color: black;font-family: Poppins, sans-serif; width: 8rem;">
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--------------------------------------------------- Animation --------------------------------------------------->
+
+  <section>
+    <div class="item">
+      <img src="assets/people 2.jpg" alt="" class="people">
+      <img src="assets/clouds2.jpg" alt="" class="clouds">
+      <img src="assets/sun2.jpg" alt="" class="sun">
+    </div>
+  </section>
+
+  <!--------------------------------------------------- Question & Answers --------------------------------------------------->
+
+  <h1 class="head-1">Weather Wisdom: Frequently Asked Questions</h1>
+  <main class="mainn">
+    <div class="card text-bg-info mb-3" style="max-width: 18rem; height: 56vh;">
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight: bold;">Do you cover international weather updates or just local?</h5>
+        <p class="card-text" style="font-size: 16px;">We provide both local and international weather updates. Whether
+          you're looking for the current conditions in your city or planning a trip abroad, our platform offers accurate
+          forecasts and real-time weather data from around the world. Simply select your location, stay informed
+          wherever you are!</p>
+      </div>
+    </div>
+    <div class="card text-bg-light mb-3" style="max-width: 18rem;height: 56vh;">
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight: bold; line-height: 25px;">Where does the weather data come from?</h5>
+        <p class="card-text" style="font-size: 16px;">Our weather data is sourced from reliable meteorological agencies,
+          satellite systems, weather stations, and our working team and radar technology. By partnering with global
+          providers, we ensure accurate and timely forecasts for both local and international locations, keeping you
+          updated with the latest weather conditions.</p>
+      </div>
+    </div>
+    <div class="card text-bg-dark mb-3" style="max-width: 18rem;height: 56vh;">
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight: bold; line-height: 25px;">Do you offer long-term or seasonal
+          forecasts?</h5>
+        <p class="card-text">Yes, we offer long-term and seasonal forecasts to help you plan ahead. Our seasonal
+          forecasts provide insights into expected weather patterns, while long-term forecasts give an overview of
+          anticipated conditions for specific dates. Keep in mind that long-term forecasts may be less precise than
+          short-term predictions.</p>
+      </div>
+    </div>
+  </main>
+
+  <!--------------------------------------------------- Testimonials --------------------------------------------------->
+
+
+  <h1 class="test">Testimonials</h1>
+  <article>
+    <div class="card-group">
+      <div class="card">
+        <img src="assets/user-1.png" class="card-img-top" alt="..."
+          style="height: 12vh; width: 6vw; border-radius: 50%; margin-left: 5.5rem; margin-top: 3rem;">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">Jemima</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere modi nesciunt dicta repellat cum iste!
+            Dolorem laudantium a aperiam deserunt corporis odit. Corrupti et dolores obcaecati quam cupiditate, quis
+            illo?
+          </p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 5 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/user-2.png" class="card-img-top" alt="..."
+          style="height: 12vh; width: 6vw; border-radius: 50%; margin-left: 5.5rem; margin-top: 3rem;">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold;">Chico</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere modi nesciunt dicta repellat cum iste!
+            Dolorem laudantium a aperiam deserunt corporis odit. Corrupti et dolores obcaecati quam cupiditate, quis
+            illo?
+          </p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 30 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/user-3.png" class="card-img-top" alt="..."
+          style="height: 12vh; width: 6vw; border-radius: 50%; margin-left: 5.5rem; margin-top: 3rem;">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold; ">Diana</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere modi nesciunt dicta repellat cum iste!
+            Dolorem laudantium a aperiam deserunt corporis odit. Corrupti et dolores obcaecati quam cupiditate, quis
+            illo?
+          </p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 1 hour ago</small></p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!--------------------------------------------------- Footer --------------------------------------------------->
+
+  <div class="container-fluid bg-primary mb-0 mt-5">
+    <footer
+      class="d-flex flex-wrap justify-content-sm-between justify-content-center align-items-center py-3 mt-3 border-top gap-3">
+      <div class="col-md-6 d-flex align-items-center gap-sm-3 gap-1 flex-wrap justify-content-center">
+        <a href="/" class="nav-link">
+          <h3 class="m-1">PakWeather</h3>
+        </a>
+        <span class="text-muted">&copy; 2021 Company, Inc</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-sm-end justify-content-sm-center list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path fill="#ffffff"
+                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+            </svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" />
+            </svg></a></li>
+        <!-- <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.<path d="M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z"/></svg></a></li> -->
+        <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path fill="#ffffff"
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+            </svg></a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>
